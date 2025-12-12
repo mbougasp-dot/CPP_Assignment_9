@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include <string>
-#include "functions.h"
+#include "parse_input().cpp"
+#include "convert_to_binary.cpp"
 
 
 
