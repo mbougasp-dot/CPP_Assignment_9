@@ -5,10 +5,10 @@
 
 using namespace std;
 
-string convert_to_binary(const string& type, const string& input) {
+string convert_to_binary(const string& inputType, const string& input       ) {
     unsigned int number;
 
-    if (type == "hex") {
+    if (    inputType == "hex") {
         std::stringstream ss;
         ss << std::hex << input;
         ss >> number;
