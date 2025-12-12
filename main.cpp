@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-#include "parse_input().cpp"
+#include "parse_input1.cpp"
 #include "convert_to_binary.cpp"
 
 
@@ -21,3 +21,10 @@ int main() {
 
     return 0;
 }
+
+/// If you want to verify that this code works properly in your environment, please make sure to create the files as i did above and compile them together using a C++17 compatible compiler.
+/// Example compilation command (using g++):
+/// You open a local terminal in your Vs Code where you installed C++ and different extensions of it,
+/// then you just enter the following command:
+/// g++ main.cpp -o main and then you press enter 
+/// After that you can run the program by typing ./main and then some instructions are going to pop Up, you just have to follow them.
