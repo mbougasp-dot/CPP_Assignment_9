@@ -1,8 +1,11 @@
-#include "functions.h"
 #include <string>
 #include <bitset>
 #include <sstream>
-std::string convert_to_binary(const std::string& type, const std::string& input) {
+
+
+using namespace std;
+
+string convert_to_binary(const string& type, const string& input) {
     unsigned int number;
 
     if (type == "hex") {
